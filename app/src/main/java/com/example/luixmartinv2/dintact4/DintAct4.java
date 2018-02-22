@@ -98,4 +98,10 @@ public class DintAct4 extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    pubic void pintarimg(){
+        
+        Picasso.with(context).load(img1.geturl()).into(imageView);
+
+    }
 }
