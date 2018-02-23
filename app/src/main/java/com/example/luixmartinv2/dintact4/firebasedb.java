@@ -8,16 +8,20 @@ import static android.content.ContentValues.TAG;
  * Created by luixmartinv2 on 22/2/18.
  */
 
-public class firease {
+public class firebasedb {
 
 
 
-    private DatabaseReference mDatabase;
+   // private DatabaseReference mDatabase;
 
     // conexion
 
 
-    public void DownloadImg (){
+
+    //conexion
+
+
+/**    public void DownloadImg (){
 
 
         mDatabase = FirebaseDatabase.getInstance().getReference();
@@ -40,5 +44,5 @@ public class firease {
         };
         mPostReference.addValueEventListener(postListener);
 
-    }
+ } */
 }

@@ -100,7 +100,7 @@ public class DintAct4 extends AppCompatActivity
     }
 
     pubic void pintarimg(){
-        
+
         Picasso.with(context).load(img1.geturl()).into(imageView);
 
     }
